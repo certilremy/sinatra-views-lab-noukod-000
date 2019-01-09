@@ -1,13 +1,9 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>date</title>
-  </head>
+  <head></head>
   <body>
-<h2>Todays</h2>
-
-<p> the date is <%= DateTime.now.strftime("%d/%m/%Y %H:%M")%></p>
+    <h1>Today</h1>
+    <%= "The date is #{Date.today.strftime("%A, %B %d, %Y")}"  %>
   </body>
 </html>
